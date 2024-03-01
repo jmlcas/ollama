@@ -8,3 +8,8 @@ Ver en "localhost:3000"
  
  docker-compose exec ollama ollama pull llama2  
 
+
+ Ver vídeo:
+
+ [![Alt text](https://img.youtube.com/vi/DEcP4bkvHG4/0.jpg)](https://www.youtube.com/watch?v=DEcP4bkvHG4)
+
