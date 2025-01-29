@@ -6,7 +6,7 @@ Ver en "localhost:3000"
  
  Vas a tener que correr este comando cada vez que necesites un modelo nuevo:
  
- docker-compose exec ollama ollama pull llama2  
+docker exec -it ollama ollama run codellama 
 
 
  Ver vídeo:
