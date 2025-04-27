@@ -12,7 +12,7 @@ services:
     restart: unless-stopped
 
   open-webui:
-    image: ghcr.io/open-webui/open-webui:v0.5.7
+    image: ghcr.io/open-webui/open-webui:main        # v0.6.5
     container_name: open-webui
     volumes:
       - open-webui:/app/backend/data
