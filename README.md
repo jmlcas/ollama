@@ -8,7 +8,7 @@ Ver en "http://localhost:3000"
  
  Vas a tener que correr este comando cada vez que necesites un modelo nuevo:
  
-docker exec ollama ollama pull codellama    # codellama = nombre de modelo
+docker exec ollama ollama pull codellama       # codellama = nombre de modelo
 
 
  Ver vídeo:
