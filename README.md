@@ -4,7 +4,7 @@ Ver en "http://localhost:3000"
 
  La version actual de chatbot-ollama no descarga el modelo automaticamente.
 
- Lirería de modelos: https://ollama.com/library
+ Librería de modelos: https://ollama.com/library
  
  Vas a tener que correr este comando cada vez que necesites un modelo nuevo:
  
