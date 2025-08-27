@@ -12,7 +12,12 @@ services:
     restart: unless-stopped
 
   open-webui:
-    image: ghcr.io/open-webui/open-webui:main        # v0.6.5
+    build:
+      context: .
+      args:
+        OLLAMA_BASE_URL: '/ollama'
+      dockerfile: Dockerfile
+    image: ghcr.io/open-webui/open-webui:main 
     container_name: open-webui
     volumes:
       - open-webui:/app/backend/data
@@ -30,4 +35,5 @@ services:
 volumes:
   ollama: {}
   open-webui: {}
+
 
