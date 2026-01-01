@@ -10,14 +10,15 @@ services:
     restart: unless-stopped
 
   open-webui:
-    image: openeuler/open-webui:latest        
+    image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
-    volumes:
-      - ./open-webui:/app/backend/data        
     ports:
       - "3000:8080"
-    stdin_open: true
-    tty: true
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ./open-webui:/app/backend/data
     restart: unless-stopped
     depends_on:
-      - ollama 
+      - ollama
+
