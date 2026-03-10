@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
 
   open-webui:
-    image: ghcr.io/open-webui/open-webui:main
+    image: openwebui/open-webui:latest
     container_name: open-webui
     depends_on:
       - ollama
@@ -23,4 +23,5 @@ services:
     extra_hosts:
       - host.docker.internal:host-gateway
     restart: unless-stopped
+
 
