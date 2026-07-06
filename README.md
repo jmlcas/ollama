@@ -15,5 +15,5 @@ docker exec ollama ollama pull deepseek-v2:16b   #ocupa 8,9 GB
 
 Ver vídeo:
 
-[![Alt text](https://img.youtube.com/vi/DEcP4bkvHG4/0.jpg)](https://www.youtube.com/watch?v=DEcP4bkvHG4)
+[![Alt text](https://img.youtube.com/vi/TTKbiPZMuJA/0.jpg)](https://www.youtube.com/watch?v=TTKbiPZMuJA)
 
