@@ -1,4 +1,4 @@
-# Ollama+Open-webUI 
+# Ollama+Open-WebUI 
 
 Ver en "http://localhost:3000"
 
